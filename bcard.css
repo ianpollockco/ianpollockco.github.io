@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #000;
+	background-image:url(bcardjpgs/ipbackground4.jpg);
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #fff;
+}
+.oneColElsCtrHdr #container {
+	position: absolute;
+	width: 1065px; 
+
+	margin: 0px 20px; 
+	border: 0px solid #000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	top: 133px;
+	height: 220px;
+	left: 73px;
+}
+.oneColElsCtrHdr #header { 
+	border-bottom: 1px solid #ff0000;
+	background: #000; 
+	padding: 0;  
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0px; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0px 0; /* using padding instead of margin will keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* padding is the space inside the div box and margin is the space outside the div box */
+	background: #000;
+	}
+.oneColElsCtrHdr #footer { /* no need for this div */
+	padding: 0 10px; 
+	
+	
+} 
+.oneColElsCtrHdr #footer td p {
+	font-color: #000;
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+#sig	{
+	position: absolute;
+	top: -54px;
+	left: -61px;
+	z-index: 2;
+	height: 80px;
+	width: 626px;
+}
+
+li 	{
+	display: inline;
+	font-color: #333;
+}
+
+.small	{
+	font-size:10px;
+	font-color: #fff;
+	letter-spacing: 2px;
+	
+}
+
+.nomargin	{
+	font-size:x-small;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+table	{
+	margin: 10px;
+	width: 80%;
+	float: left;
+	
+}
+
+td	{
+	color: #999;
+	font-size: 11px;
+}
+
+.fltlft	{
+	float: left;
+}
+
+a:link {text-decoration: none;
+font-size: 10px;
+line-height: 12px;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #999}
+
+a:visited {text-decoration: none;
+font-size: 10px;
+line-height: 12px;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #999
+}
+
+a:hover {text-decoration: none;
+		}
+
+a:active {text-decoration: none;
+
+	color: #ffffff}

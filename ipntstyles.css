@@ -1,0 +1,211 @@
+a:link {text-decoration: none;
+font-size: 10pt;
+line-height: 12pt;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #ffffff}
+
+a:active {text-decoration: none;
+font-size: 10pt;
+line-height: 12pt;
+font-style: italic;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #ffffff}
+
+a:visited {text-decoration: none;
+font-size: 10pt;
+line-height: 12pt;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #bbbbbb
+}
+
+a:hover {text-decoration: none;
+	color: #ffff66}
+
+a	{{font-family: verdana, arial, helvetica, sans-serif, serif;
+	font-size: 10pt;
+     	line-height: 13pt;
+	color: #faf0e6     
+      }
+
+H1 	{font-size: 64pt;
+	line-height: 24pt;
+	font-weight: bold;
+        letter-spacing: 4pt;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	}
+
+
+H2  {font-size: 24pt;
+     line-height: 24pt;
+     letter-spacing: 2pt;
+     font-family: verdana, arial, helvetica, sans-serif, serif;
+     color: #faf0e6}
+
+H2.back {background-color: "black" }
+
+
+H3   {font-size: 12pt;
+      line-height: 14pt;
+	font-weight: bold;
+        letter-spacing: 6pt;
+        font-family: verdana, arial, helvetica, sans-serif;
+	color: #333333}
+
+H3.cen	{color: #999999;
+	text-align: center }
+
+H3.sl	{color: #999999;
+	text-align: left }
+
+H3.index	{position: absolute;
+		top: 94px;
+		left: 548px;
+		color: #999999}
+
+H4     {font-size: 12pt;
+	letter-spacing: 2pt;
+	line-height: 15pt;
+	font-weight: normal;
+        font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #ff9933}
+
+H4.quote	{letter-spacing: 0pt}
+
+H5	{font-size: 12pt;
+	line-height: 14pt;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #333333}
+
+H5.red	{color: #b22222}
+
+H6	{font-size: 8pt;
+	line-height: 11pt;
+	letter-spacing: 1pt ;
+	font-weight: normal;
+	font-style: normal;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #333333}
+
+H6.k	{color: "b22222"}
+H6.o	{color: #ffffff}
+
+P  	{font-family: verdana, arial, helvetica, sans-serif, serif;
+	font-size: 10pt;
+     	line-height: 13pt;
+	color: #faf0e6     
+      }
+
+.big	{font-family: verdana, arial, helvetica, sans-serif, serif;
+	font-size: 36pt;
+	line-height: 36pt}
+
+.b	{font-weight: bold }
+
+.r	{text-align: right}
+
+.l	{text-align: left}
+
+.c	{text-align: center;
+	letter-spacing: 1;
+	color="999999" }
+
+.w	{color: #ffffff}
+.black	{color: #000000}
+.linen	{color: #faf0e6}
+.grey	{color: #333333}
+.red	{color: #990000}
+.crimson {background: #630000;
+	color: silver }
+.ip	{color: #008b8b}
+
+.back	{background-color: #666666}
+
+.small	{font-size: 7pt;
+	letter-spacing: 2}
+
+Body 	{background: #333333;
+	margin-top: 0px;
+	margin-height: 0px;
+	}
+
+.b1	{background: #ffffff;
+	background-image: url(jpgs/);
+	margin-left: 100px;	
+	}
+.b2	{background: #faf0e6}
+.b3	{background: #ffffcc}
+.b4	{background: #000000}
+
+.b5	{background: #333333;
+	background-attachment: fixed;
+	background-image: url(jpgs/.jpg);
+	background-position: 10% 20%;
+	background-repeat: no-repeat}
+
+Body.b6	{background: #000000;
+	margin-left: 125px;
+	background-attachment: fixed;
+	background-position: 89% 0%;
+	background-repeat: no-repeat}
+
+td	{font-size: 10pt;
+    	 line-height: 13pt;
+         font-family: verdana, arial, helvetica, sans-serif, serif;
+    	 color: #faf0e6}
+Table.t1	{background: #666666;
+		color: #faf0e6}
+Table.t2	{background: #ffffff}
+Table.t3	{background: #666666}
+Table.t4	{background: #333333}
+Table.t5	{background: #008b8b}
+Table.t6	{background: #000000}
+Table.t7	{background: #faf0e6}
+
+B  {	font-size= 9pt;
+	font-weight: bold;
+	color: #666666; 
+	text-transform: uppercase}
+
+B.ack	{font-weight: bold;
+	font-size: 10pt;
+	color: #000000;
+	text-transform: none}
+
+B.b	{font-size: 12pt;
+	font-weight: bold;
+	text-transform: none;
+	color: #000000}
+
+B.s	{font-size: 12pt;
+	font-weight: normal;
+	text-transform: none;
+	color: #999999}
+
+B.w	{font-size: 12pt;
+	font-weight: normal;
+	text-transform: none;
+	color: #ffffff}
+B.wide	{letter-spacing: 4pt;
+	color: #ff9933}
+.wide	{letter-spacing: 4pt}
+
+I  	{font-size: 10pt;
+	line-height: 13pt;
+    	}
+
+OL 	{margin-left: 55px; 
+	
+	font-size: 12pt;
+	font-family: arial, helvetica, sans-serif, serif}
+
+.dash	{border-top: dashed;
+	border-width: 8px;
+	border-color: #000000}
+
+.dot	{border-style: dotted;
+	border-bottom: dotted;
+	border-width: thin;
+	color: #fdf5e6}
+
+
