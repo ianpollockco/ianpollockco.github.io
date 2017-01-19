@@ -1,0 +1,78 @@
+body {
+background-color: #000000;}
+
+
+#image	{
+	float: right;
+	width: 70%;
+	}
+
+#imgnav	{
+float: left;
+width: 30%;
+margin-top: 20px;
+}
+
+
+	
+#imgnav a	{
+	font-size: 80%;
+	line-height: 1.2em;
+	color: #ffffff;
+	}
+
+#title	{
+	position: absolute;
+	top: 260px;
+	left: 10px;
+		}
+	
+#title h1, p	{
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+	
+a:link {text-decoration: none;
+font-size: 11px;
+line-height: 13px;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #ffffff}
+
+a:visited {text-decoration: none;
+font-size: 10px;
+line-height: 12px;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #bbbbbb
+}
+
+a:hover {text-decoration: none;
+	color: #990000;
+	}
+
+a:active {text-decoration: none;
+font-size: 10px;
+line-height: 12px;
+font-style: italic;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #ffffff}
+
+H1 	{font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+    letter-spacing: 2px;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #999999;
+		}
+		
+	td	{font-size: 12px;
+    	 line-height: 14px;
+         font-family: verdana, arial, helvetica, sans-serif, serif;
+    	 color: #faf0e6;
+		}
+		 
+th	{font-size: 10px;
+    	 line-height: 13px;
+		 letter-spacing: 1px;
+         font-family: verdana, arial, helvetica, sans-serif, serif;
+		 background: #990000;
+    	 color: #faf0e6}

@@ -1,0 +1,212 @@
+a:link {text-decoration: none;
+font-size: 8pt;
+font-weight: normal;
+line-height: 11pt;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #000000}
+
+a:active {text-decoration: none;
+font-size: 8pt;
+line-height: 11pt;
+font-weight:normal ;
+font-style: italic;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #86bcde}
+
+a:visited {text-decoration: none;
+font-size: 8pt;
+line-height: 11pt;
+font-family: verdana, arial, helvetica, sans-serif, serif;
+color: #000000
+}
+
+a:hover {text-decoration: none;
+	font-weight: normal; 
+	color: #ffffff}
+
+H1 	{font-size: 22pt;
+	line-height: 22pt;
+	font-weight: bold;
+        letter-spacing: 6pt;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #999999}
+
+
+H1.red		{color: #990000}
+H1.green	{color: #336633}
+H1.back		{background-color: darkorange}
+H1.right	{text-align: right;
+		color: #ffffff}
+
+
+H2  {font-size: 20pt;
+     line-height: 20pt;
+     letter-spacing: 2pt;
+     font-family: verdana, arial, helvetica, sans-serif, serif;
+     color: #999999}
+
+H2.back {background-color: "black" }
+
+
+H3   {font-size: 14pt;
+      line-height: 14pt;
+	font-weight: bold;
+        letter-spacing: 1pt;
+        font-family: verdana, arial, helvetica, sans-serif;
+	color: #999999}
+
+
+H3.sl	{color: #999999;
+	text-align: left }
+
+
+H4     {font-size: 12pt;
+	letter-spacing: 2pt;
+	line-height: 15pt;
+	font-weight: normal;
+        font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #ff9933}
+
+H4.quote	{letter-spacing: 0pt}
+
+H5	{font-size: 12pt;
+	line-height: 14pt;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #333333}
+
+H5.red	{color: #b22222}
+
+H6	{font-size: 8pt;
+	line-height: 11pt;
+	letter-spacing: 1pt ;
+	font-weight: normal;
+	font-style: normal;
+	font-family: verdana, arial, helvetica, sans-serif, serif;
+	color: #333333}
+
+
+P   {font-size: 10pt;
+     line-height: 14pt;
+     
+     font-family: verdana, arial, helvetica, sans-serif, serif;
+     color: #000000 }
+
+.bl	{background: #004c6f;
+	font-size: 10pt;
+	font-style: bold;
+	letter-spacing: 2pt;
+	color: #ffffff}
+
+.b	{font-weight: bold }
+
+.r	{text-align: right}
+
+.l	{text-align: left}
+
+.c	{text-align: center;
+	letter-spacing: 2;
+	color="#666666" }
+
+.w	{color: #ffffff}
+
+.small	{font-size: 7pt;
+	letter-spacing: 2}
+
+.tiny	{font-size: 7pt;
+	color: #ffffff}
+
+tt	{font-size:9pt;
+	letter-spacing: 1pt;
+	color: #666666 }
+
+P.caption	{text-align: center}
+
+.con	{letter-spacing: 5pt; 
+	color: #ff9900}
+
+.sup	{letter-spacing: 4pt;
+	color: #ff9900}
+	
+.right	{text-align: right}
+
+Body 	{background: #ffffff;
+	margin-top: 0px;
+	margin-height: 0px  }
+
+Body.img	{background: #ffffff;
+	background-image: url(imgs/);
+	margin-left: 0px;	
+	}
+	
+Body.b2	{background: #86bcde}
+Body.b3	{background: #ffffcc}
+Body.b4	{background: #000000}
+
+Body.b5	{background: #333333;
+	margin-left: 125px;
+	background-attachment: fixed;
+	background-image: url(jpgs/years.jpg);
+	background-position: 89% 0%;
+	background-repeat: no-repeat}
+
+Body.b6	{background: #000000;
+	margin-left: 125px;
+	background-attachment: fixed;
+	background-position: 89% 0%;
+	background-repeat: no-repeat}
+
+
+table	{background-image: url(jpgs/backtest.jpg)}
+
+td	{font-size: 10pt;
+    	 line-height: 13pt;
+         font-family: verdana, arial, helvetica, sans-serif, serif;
+    	 color: #000000 }
+Table.t1	{background: #ffffcc}
+Table.t2	{background: #86bcde}
+Table.t3	{background: #fdf5e6}
+Table.t4	{background: #ffffff}
+Table.t5	{background: #004c6f}
+Table.t6	{background: #000000}
+Table.t7	{background: #999999}
+
+.inset	{border-style: inset}
+
+.crimson {background: #ffffff;
+	letter-spacing: 1pt;
+	color: #ff6600 }
+.silver  {color: silver }
+.white   {color: white }
+.preview {background: #ff9933;
+	letter-spacing: 2pt;
+	color: #ffffff }
+
+
+B  {	font-size= 9pt;
+	font-weight: bold;
+	color: #666666; 
+	text-transform: uppercase}
+
+
+B.wide	{letter-spacing: 4pt;
+	color: #ff9933}
+
+I  {font-size: 10pt;
+	line-height: 13pt;
+    color: #333333 }
+
+li	{font-size: 10pt;
+	line-height: 14pt}
+
+.dash	{border-top: dashed;
+	border-width: 8px;
+	border-color: #000000}
+
+.dot	{border-style: dotted;
+	border-bottom: dotted;
+	border-width: thin}
+
+hr	{width: 250px;
+	border-style: dotted;
+	color: #004c6f}
